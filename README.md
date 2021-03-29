@@ -18,15 +18,25 @@ The purpose of this project is to build a Web App that will scrape several websi
 
 Mars hemisphere images are scraped from [Astropedia](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars).
 
-![mongo_mars]()
+As seen in the screenshot below, the extracted data is successfully stored in MongoDB.  
+
+![mongo_mars](https://github.com/Mishkanian/Mission-to-Mars/blob/main/Resources/mongo_mars.png)
 
 ## Updating the Web App
 
-Adding Bootstrap 3 compoents, such as the code below, allowed the four Mars hemisphere images to be displayed side-by-side on Desktop browsers, instead of in a line.
+Adding Bootstrap 3 compoents, such as the code below, allowed the four Mars hemisphere images to be displayed side-by-side on Desktop browsers, instead of a line.
 ```html
  <div class="col-md-3">
 ```
-![web_hemi]()
+![web_hemi](https://github.com/Mishkanian/Mission-to-Mars/blob/main/Resources/mars_hemi.png)
+
+### Optimization for Mobile Devices
+
+The Web App is also fully optimized for mobile devices:
+
+![mobile_screen]()
+
+![mobile_hemi]()
 
 **Author: Michael Mishkanian**  
 
