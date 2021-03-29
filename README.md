@@ -16,9 +16,11 @@ The purpose of this project is to build a Web App that will scrape several websi
 
 ## Scraping Mars Data
 
-Mars hemisphere images are scraped from [Astropedia](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars).
+The final HTML page can be viewed by clicking [here]()
 
-As seen in the screenshot below, the extracted data is successfully stored in MongoDB.  
+Selecting the "Scrape New Data" button will obtain the latest news, images, and facts about Mars. News titles and summaries are extracted from [NASA Mars Exploration Program News](https://data-class-mars.s3.amazonaws.com/Mars/index.html). The featured images are extracted from the [Jet Propulsion Laboratory's Space Images](https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html). Mars hemisphere images are extracted from [Astropedia](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars). Finally, the Mars facts are gathered from [Galaxy Facts](https://data-class-mars-facts.s3.amazonaws.com/Mars_Facts/index.html).
+
+After running [app.py](https://github.com/Mishkanian/Mission-to-Mars/blob/main/app.py), the extracted data is successfully stored in MongoDB as seen in the screenshot below.  
 
 ![mongo_mars](https://github.com/Mishkanian/Mission-to-Mars/blob/main/Resources/mongo_mars.png)
 
@@ -32,14 +34,13 @@ Adding Bootstrap 3 compoents, such as the code below, allowed the four Mars hemi
 
 ### Optimization for Mobile Devices
 
-The Web App is also fully optimized for mobile devices:
+The Web App is also fully optimized for mobile devices, including the layout of the [hemisphere images](https://github.com/Mishkanian/Mission-to-Mars/blob/main/Resources/mobile_mars_hemi.png).
 
-![mobile_screen]()
+![mobile_screen](https://github.com/Mishkanian/Mission-to-Mars/blob/main/Resources/mobile_mars.png)
 
-![mobile_hemi]()
 
 **Author: Michael Mishkanian**  
 
 For all questions and inquiries, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
 
-![mars_image](https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/cerberus_enhanced.tif/full.jpg)
+![mars_image](https://github.com/Mishkanian/Mission-to-Mars/blob/main/Resources/mars.jpeg)
