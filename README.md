@@ -10,7 +10,7 @@ The purpose of this project is to build a Web App that will scrape several websi
 - webdriver-manager 3.3.0
 - Flask 1.1.2
 - Flask-PyMongo 2.3.0
-- BeasutifulSoup (bs4) 0.0.1
+- BeautifulSoup (bs4) 0.0.1
 - html5lib 1.1
 - lxml 4.6.3
 
