@@ -30,7 +30,7 @@ To confirm that the mars_app database exists, run the following command in mongo
 
 ## Updating the Web App
 
-Adding Bootstrap 3 compoents, such as the code below, allowed the four Mars hemisphere images to be displayed side-by-side on Desktop browsers, instead of a line. This allows users to see all four images at once.
+Adding Bootstrap 3 components, such as the code below, allowed the four Mars hemisphere images to be displayed side-by-side on Desktop browsers, instead of a line. This allows users to see all four images at once.
 ```html
  <div class="col-md-3">
 ```
