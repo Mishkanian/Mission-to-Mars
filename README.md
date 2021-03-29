@@ -24,7 +24,6 @@ After running [app.py](https://github.com/Mishkanian/Mission-to-Mars/blob/main/a
 ```terminal
 To confirm that the mars_app database exists, run the following command in mongo:
 > show dbs
-
 ```
 ![mongo_mars](https://github.com/Mishkanian/Mission-to-Mars/blob/main/Resources/mongo_mars.png)
 
